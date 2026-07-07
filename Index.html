@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>TG Solutions Pty Ltd | Branding & Printing in Rustenburg</title>
+  <meta name="description" content="TG Solutions offers branding, T-shirt printing, vinyl cutting, tutoring and business support in Rustenburg. Affordable and professional services.">
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/733/733585.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h1 class="logo">TG Solutions</h1>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#pricing">Pricing</a></li> <!-- FIXED -->
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero fade-in">
+  <div class="hero-box">
+    <h2>Welcome to TG Solutions</h2>
+    <p>Branding, Printing & Tutoring for Success</p>
+
+    <img src="images/branding.jpg" class="hero-img" alt="Branding services">
+
+    <a href="#services" class="btn">Get Started</a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services fade-in">
+  <h2 class="section-title">Our Services</h2>
+
+  <div class="cards">
+
+    <div class="card fade-in">
+      <div class="img-box">
+        <img src="images/branding.jpg" alt="Branding">
+      </div>
+      <h3>Branding</h3>
+      <p>Printing, T-shirts, vinyl cutting, mugs, stickers.</p>
+    </div>
+
+    <div class="card fade-in">
+      <div class="img-box">
+        <img src="images/tutoring.jpg" alt="Tutoring">
+      </div>
+      <h3>Tutoring</h3>
+      <p>Academic support, music & exam preparation.</p>
+    </div>
+
+    <div class="card fade-in">
+      <div class="img-box">
+        <img src="images/business.jpg" alt="Business support">
+      </div>
+      <h3>Business Support</h3>
+      <p>Workshops, compliance, and startup guidance.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="gallery fade-in">
+  <h2 class="section-title">Our Work</h2>
+
+  <div class="gallery-container">
+    <div class="gallery-item"><img src="images/branding.jpg" alt=""></div>
+    <div class="gallery-item"><img src="images/tutoring.jpg" alt=""></div>
+    <div class="gallery-item"><img src="images/business.jpg" alt=""></div>
+  </div>
+
+  <!-- POPUP -->
+  <div id="popup" class="popup">
+    <span id="close">&times;</span>
+    <img id="popup-img" alt="">
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about fade-in">
+  <div class="about-box">
+    <h2>About TG Solutions</h2>
+    <p>
+      We help businesses grow and students succeed through quality branding,
+      printing, and professional support services in Rustenburg.
+    </p>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="pricing fade-in">
+  <h2 class="section-title">Our Pricing</h2>
+
+  <div class="pricing-container">
+
+    <div class="price-card">
+      <h3>Basic</h3>
+      <p class="price">R150 - R300</p>
+      <ul>
+        <li>Simple T-shirt Printing</li>
+        <li>Basic Design</li>
+        <li>1 Day Delivery</li>
+      </ul>
+      <a href="#contact" class="btn">Get Started</a>
+    </div>
+
+    <div class="price-card popular">
+      <h3>Standard</h3>
+      <p class="price">R300 - R700</p>
+      <ul>
+        <li>Vinyl Printing</li>
+        <li>Custom Design</li>
+        <li>2-3 Days Delivery</li>
+      </ul>
+      <a href="#contact" class="btn">Choose Plan</a>
+    </div>
+
+    <div class="price-card">
+      <h3>Premium</h3>
+      <p class="price">R700+</p>
+      <ul>
+        <li>Bulk Orders</li>
+        <li>Full Branding Package</li>
+        <li>Priority Service</li>
+      </ul>
+      <a href="#contact" class="btn">Contact Us</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="testimonials fade-in">
+  <h2 class="section-title">What Our Clients Say</h2>
+
+  <div class="testimonial-slider">
+
+    <div class="testimonial-slide active">
+      <img src="images/client1.jpg" alt="">
+      <p>"TG Solutions printed my T-shirts perfectly!"</p>
+      <div class="stars">★★★★★</div>
+      <h4>- Thabo M.</h4>
+    </div>
+
+    <div class="testimonial-slide">
+      <img src="images/client2.jpg" alt="">
+      <p>"Very affordable pricing and high quality."</p>
+      <div class="stars">★★★★★</div>
+      <h4>- Bongane T.</h4>
+    </div>
+
+    <div class="testimonial-slide">
+      <img src="images/client3.jpg" alt="">
+      <p>"Their branding helped my business grow."</p>
+      <div class="stars">★★★★★</div>
+      <h4>- Kabelo S.</h4>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact fade-in">
+  <h2 class="section-title">Contact Us</h2>
+
+  <form action="https://formsubmit.co/tgsolutions.554@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 TG Solutions Pty Ltd</p>
+</footer>
+
+<!-- WHATSAPP (FIXED NUMBER + AUTO MESSAGE) -->
+<a href="https://wa.me/27729104323?text=Hello%20TG%20Solutions,%20I%20need%20your%20services" target="_blank" class="whatsapp-btn">
+  💬
+</a>
+
+<!-- SCRIPT -->
+<script>
+
+// FADE IN
+const elements = document.querySelectorAll('.fade-in');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+  });
+});
+
+elements.forEach(el => observer.observe(el));
+
+// IMAGE POPUP
+const images = document.querySelectorAll('.gallery-item img');
+const popup = document.getElementById('popup');
+const popupImg = document.getElementById('popup-img');
+const closeBtn = document.getElementById('close');
+
+images.forEach(img => {
+  img.addEventListener('click', () => {
+    popup.style.display = 'flex';
+    popupImg.src = img.src;
+  });
+});
+
+closeBtn.onclick = () => {
+  popup.style.display = 'none';
+};
+
+// AUTO TESTIMONIAL SLIDER
+let index = 0;
+const slides = document.querySelectorAll('.testimonial-slide');
+
+setInterval(() => {
+  slides[index].classList.remove('active');
+  index = (index + 1) % slides.length;
+  slides[index].classList.add('active');
+}, 3000);
+
+</script>
+
+</body>
+</html>
